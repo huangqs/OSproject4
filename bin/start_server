@@ -1,0 +1,3 @@
+#! /bin/bash
+nodejs ./bin/server.js $1 1>/dev/null &
+echo $! > ./bin/$1.txt

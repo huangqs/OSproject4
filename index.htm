@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+  <form action="/kv/insert" method="post">
+  key:<input type="text" name="key">
+  value:<input type="text" name="value">
+  <button type="submit" value="Insert">Insert</button>
+  </form>
+  <form action="/kv/get" method="get">
+  key:<input type="text" name="key">
+  <button type="submit" value="Get">Get</button>
+  </form>
+  <form action="/kv/delete" method="post">
+  key:<input type="text" name="key">
+  <button type="submit" value="Delete">Delete</button>
+  </form>
+  <form action="/kv/update" method="post">
+  key:<input type="text" name="key">
+  value:<input type="text" name="value">
+  <button type="submit" value="Update">Update</button>
+  </form>
+ </body>
+</html>

@@ -1,0 +1,4 @@
+#! /bin/bash
+
+value="$(cat ./bin/$1.txt)"
+kill $value
